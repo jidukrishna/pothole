@@ -82,7 +82,7 @@ def generate_pothole_simulation(grid_size=100, num_potholes=5, scale_factor=0.95
 
     # Show the plots
     plt.tight_layout()
-    plt.
+    plt.show()
 
     # Output the volumes
     print(f"Volume of the original rough pothole surface: {volume_original:.2f} cubic units")
